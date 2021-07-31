@@ -169,7 +169,7 @@ def collect_ndata(ndata,dataset,preds,filename_ndata):
   # print(ndata_dataframe)
   ndata_dataframe.sort_values(by=['f1'], inplace=True,ascending=True)
   # ndata_dataframe.reset_index()
-  print(ndata_dataframe.head())
+  # print(ndata_dataframe.head())
   ndata_dataframe.to_json('./analysis/'+filename_ndata+'.json',orient="table",index=False)
   
 
@@ -319,7 +319,7 @@ def fire(dataset_file,preds_file):
   collect_ndata(nbest,dataset,preds,'nbest')
 
   collect_ndata(dataframe,dataset,preds,'all')
-  
+
   return out_eval
 
 # if __name__ == '__main__':
