@@ -136,8 +136,6 @@ def histogram_na_prob(na_probs, qid_list, image_dir, name):
   plt.clf()
 
 
-
-
 def collect_ndata(ndata,dataset,preds,filename_ndata):
   ndata_id = ndata['id'].values.tolist()
   data = {
@@ -321,6 +319,7 @@ def fire(dataset_file,preds_file):
   collect_ndata(nbest,dataset,preds,'nbest')
 
   collect_ndata(dataframe,dataset,preds,'all')
+  
   return out_eval
 
 # if __name__ == '__main__':
