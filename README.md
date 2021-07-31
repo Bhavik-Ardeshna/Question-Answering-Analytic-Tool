@@ -13,6 +13,7 @@ cd SQuAD-Analytic
 ```sh
 mkdir uploads
 mkdir images
+mkdir analysis
 ```
 
 ## Installation and Running Locally
@@ -37,4 +38,4 @@ python app.py
 ```
 
 > **Go to this URL**
-- [localhost:3000](https://localhost:5000)
+- [localhost:5000](https://localhost:5000)
