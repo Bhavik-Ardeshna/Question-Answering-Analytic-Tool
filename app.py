@@ -12,11 +12,10 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 @app.route('/evaluation')
 def evaluate_squad():
     out_eval = fire('dataset.json','pred_data.json')
-    with open('./all.json') as f:
+    with open('./analysis/all.json') as f:
         data = json.load(f)
-    image_names = os.listdir('./images')
-    print(image_names)
-    return render_template('evaluation.html',datalen =len(data), data={'out_eval': out_eval},dataJson=json.dumps(data))
+    
+    return render_template('evaluation.html',datalen =len(data['data']), data={'out_eval': out_eval},dataJson=json.dumps(data['data']))
     
 @app.route('/',methods=['POST','GET'])
 def home():

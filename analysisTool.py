@@ -169,8 +169,10 @@ def collect_ndata(ndata,dataset,preds,filename_ndata):
   # print(data)
   ndata_dataframe = pd.DataFrame(data,columns=['id','context','question','answer','predicted_answer','f1','em','precision','recall'])
   # print(ndata_dataframe)
-  ndata_dataframe.sort_values(by=['f1'], inplace=True)
-  ndata_dataframe.to_json(filename_ndata+'.json',orient="index")
+  ndata_dataframe.sort_values(by=['f1'], inplace=True,ascending=True)
+  # ndata_dataframe.reset_index()
+  print(ndata_dataframe.head())
+  ndata_dataframe.to_json('./analysis/'+filename_ndata+'.json',orient="table",index=False)
   
 
 
@@ -308,13 +310,15 @@ def fire(dataset_file,preds_file):
 
   print(json.dumps(out_eval, indent=2))
 
-  nworst = dataframe.head(10)
+  dataframe.sort_values(by=['f1'], inplace=True,ascending=True)
+
+  nworst = dataframe.head(20)
 
   nbest = dataframe.tail(10)
   
-  # collect_ndata(nworst,dataset,preds,'nworst')
+  collect_ndata(nworst,dataset,preds,'nworst')
   
-  # collect_ndata(nbest,dataset,preds,'nbest')
+  collect_ndata(nbest,dataset,preds,'nbest')
 
   collect_ndata(dataframe,dataset,preds,'all')
   return out_eval
