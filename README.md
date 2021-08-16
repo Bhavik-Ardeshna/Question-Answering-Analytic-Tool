@@ -4,7 +4,7 @@
 > **Clone the SQuAD-Analytics (from the `main` branch) and `cd ` into the directory.**
 
 ```sh
-git clone -b https://github.com/Bhavik-Ardeshna/PDFConverter.git
+git clone -b https://github.com/Bhavik-Ardeshna/SQuAD-Analytics.git
 cd SQuAD-Analytic
 ```
 
