@@ -1,3 +1,4 @@
+[1] Hariom A. Pandya, Bhavik Ardeshna, Dr. Brijesh S. Bhatt [*Cascading Adaptors to Leverage English Data to Improve Performance ofQuestion Answering for Low-Resource Languages*]()
 
 ## Get a copy of source code
 
@@ -43,21 +44,21 @@ python app.py
 
 <br>
 <p align="center">
-  <img src="https://github.com/Bhavik-Ardeshna/Question-Answering-for-Low-Resource-Languages/blob/main/assests/FlowChart.jpeg" alt="FLowchart"  width="80%"/>
+  <img src="https://github.com/Bhavik-Ardeshna/Question-Answering-Analytic-Tool/blob/main/assests/EvalTool1.png" alt="1"  width="80%"/>
 </p>
 <br>
 
 
 <br>
 <p align="center">
-  <img src="https://github.com/Bhavik-Ardeshna/Question-Answering-for-Low-Resource-Languages/blob/main/assests/FlowChart.jpeg" alt="FLowchart"  width="80%"/>
+  <img src="https://github.com/Bhavik-Ardeshna/Question-Answering-Analytic-Tool/blob/main/assests/EvalTool2.png" alt="2"  width="80%"/>
 </p>
 <br>
 
 
 <br>
 <p align="center">
-  <img src="https://github.com/Bhavik-Ardeshna/Question-Answering-for-Low-Resource-Languages/blob/main/assests/FlowChart.jpeg" alt="FLowchart"  width="80%"/>
+  <img src="https://github.com/Bhavik-Ardeshna/Question-Answering-Analytic-Tool/blob/main/assests/EvalTool3.png" alt="3"  width="80%"/>
 </p>
 <br>
 
