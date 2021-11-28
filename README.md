@@ -1,4 +1,6 @@
-[1] Hariom A. Pandya, Bhavik Ardeshna, Dr. Brijesh S. Bhatt [*Cascading Adaptors to Leverage English Data to Improve Performance ofQuestion Answering for Low-Resource Languages*]()
+> There have been many efforts in Question Answer-ing in multiple languages. To evaluate each modelwith the actual and predicted answers we have cre-ated an Evaluation Tool1. The tool provides manyfeatures  to  the  researcher  to  analyze  the  resultswith user-friendly UI/UX. We have used Flask2as a backend by synchronizing with the evaluat-ing script.   Our tool can list the best and worst-performing samples for further analysis and candisplay collective EM and F1 score for the inputsamples.
+
+> [1] Hariom A. Pandya, Bhavik Ardeshna, Dr. Brijesh S. Bhatt [*Cascading Adaptors to Leverage English Data to Improve Performance ofQuestion Answering for Low-Resource Languages*]()
 
 ## Get a copy of source code
 
