@@ -39,3 +39,25 @@ python app.py
 
 > **Go to this URL**
 - [localhost:5000](https://localhost:5000)
+
+
+<br>
+<p align="center">
+  <img src="https://github.com/Bhavik-Ardeshna/Question-Answering-for-Low-Resource-Languages/blob/main/assests/FlowChart.jpeg" alt="FLowchart"  width="80%"/>
+</p>
+<br>
+
+
+<br>
+<p align="center">
+  <img src="https://github.com/Bhavik-Ardeshna/Question-Answering-for-Low-Resource-Languages/blob/main/assests/FlowChart.jpeg" alt="FLowchart"  width="80%"/>
+</p>
+<br>
+
+
+<br>
+<p align="center">
+  <img src="https://github.com/Bhavik-Ardeshna/Question-Answering-for-Low-Resource-Languages/blob/main/assests/FlowChart.jpeg" alt="FLowchart"  width="80%"/>
+</p>
+<br>
+
